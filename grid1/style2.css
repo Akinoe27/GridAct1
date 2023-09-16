@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main-container {
+    max-width: 1200px;
+    background: #eee;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 30px auto;
+    gap:10px;
+
+
+}
+
+.main-container>p {
+    background: #ccc;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+.main-container>p:nth-child(1) {
+    grid-column: span 1;
+}
+
