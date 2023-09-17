@@ -103,6 +103,13 @@ main {
     line-height: 1.2;
 }
 
+h2{
+    text-align: center;
+    padding: 2px;
+    text-decoration: underline;
+    
+}
+
 .column p {
     font-size: 20px;
 }
@@ -182,8 +189,4 @@ main {
     object-fit: cover;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-}
-h2 {
-    text-align: center;
-    padding: 2px;
 }
