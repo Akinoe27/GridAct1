@@ -9,7 +9,7 @@ body {
   position: relative;
   background: url("image/tech.jpg");
   background-size: cover;
-
+  height: 100vh;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
