@@ -80,9 +80,6 @@ main {
     align-items: flex-start;
 }
 
-
-.card {}
-
 .card img {
     width: 100%;
 }
