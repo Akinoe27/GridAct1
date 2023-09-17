@@ -114,8 +114,7 @@ h2 {
 }
 .card {
   padding: 10px;
-  background: paleturquoise;
-  background-image: url(image/ray.avif);
+  background: gainsboro;
   border-radius: 10px;
 }
 .second-container {
